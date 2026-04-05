@@ -1,0 +1,9 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location \"c:\\\\Users\\\\PC\\\\Desktop\\\\fintech\\\\backend\"; node -e \"import\\('\\./src/routes/transactions\\.routes\\.js'\\)\\.then\\(\\(\\)=>console\\.log\\('transactions route ok'\\)\\)\\.catch\\(\\(e\\)=>\\{console\\.error\\(e\\);process\\.exit\\(1\\);\\}\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npm install": true
+    }
+}
